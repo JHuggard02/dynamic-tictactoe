@@ -1,0 +1,1 @@
+/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/ws.dir/src/server.cpp.o CMakeFiles/ws.dir/src/Session.cpp.o CMakeFiles/ws.dir/src/SessionHandler.cpp.o -o ws  -lpthread
