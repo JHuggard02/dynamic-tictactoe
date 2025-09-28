@@ -88,7 +88,7 @@ void Session::doRead() {
             self->buffer_.consume(self->buffer_.size());
 
             if (auto handler = self->handler_.lock()) {
-                handler->handleInput(self, message); // now works
+                handler->handleInput(self, message); 
             }
 
             self->doRead();

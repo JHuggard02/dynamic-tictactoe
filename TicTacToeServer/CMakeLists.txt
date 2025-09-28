@@ -13,5 +13,4 @@ add_executable(ws
     ./src/Session.cpp 
     ./src/SessionHandler.cpp )
 
-# Only pthread is needed, Boost is header-only
 target_link_libraries(ws PRIVATE pthread nlohmann_json::nlohmann_json)

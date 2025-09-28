@@ -130,21 +130,8 @@ private:
                     nr -= dr;
                     nc -= dc;
                 }
-            
-            // // positive
-            // for (int i = 1; i < 3; i++) {
-            //     int r = row + dr*i;
-            //     int c = col + dc*i;
-            //     if (r<0 || r>2 || c<0 || c>2 || board_[r][c] != symbol) break;
-            //     count++;
-            // }
-            // // negative
-            // for (int i = 1; i < 3; i++) {
-            //     int r = row - dr*i;
-            //     int c = col - dc*i;
-            //     if (r<0 || r>2 || c<0 || c>2 || board_[r][c] != symbol) break;
-            //     count++;
-            // }
+
+                
             if (count >= winCond_) return true;
         }
         return false;
